@@ -1,0 +1,20 @@
+﻿StudentKeeper
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\NEW CPE 106\StudentKeeper\StudentKeeper\obj\Debug\net6.0-windows\
+StudentKeeper
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\NEW CPE 106\StudentKeeper\StudentKeeper\App.xaml
+121127646132
+
+21-575076239
+194101785492
+MainWindow.xaml;Style\Button.xaml;Style\Image.xaml;Style\Page.xaml;Style\Text.xaml;Utilities\DataTemplate.xaml;View\DeleteRecords.xaml;View\Home.xaml;View\Person.xaml;View\SearchRecords.xaml;View\Student.xaml;View\ViewRecords.xaml;
+
+False
+

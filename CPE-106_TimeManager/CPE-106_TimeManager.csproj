@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>CPE_106_TimeManager</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\progress-black.png" />
+    <None Remove="Assets\schedule-black.png" />
+    <None Remove="Assets\todo-dark.png" />
+    <None Remove="Assets\user-white.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\progress-black.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\schedule-black.png" />
+    <Resource Include="Assets\todo-dark.png" />
+    <Resource Include="Assets\user-white.png" />
+  </ItemGroup>
+
+</Project>
